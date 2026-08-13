@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Probezeitbericht</title>
+
+<link rel="stylesheet" href="test.css">
+</head>
+
+<body>
+<div class="a">
+    <h1>Probezeitbericht</h1>
+
+<form action="test2.html" method="GET">
+Lernende/r: <input type="text" id="beruf" name="beruf" style="width: 120px;">
+<br>
+<label for="lehrberuf">wählen sie ihren lehrberuf</label>
+<select name="lehrberuf" id="lehrberuf">
+  <option value="" disabled selected>Bitte wählen</option>
+  <option value="appli">Applikationsentwickler</option>
+  <option value="plat">platformentwickler</option>
+  <option value="media">mediamatiker</option>
+  <option value="kauf">Kauffrau/Kaufmann</option>
+</select>
+<br>
+<br>
+
+
+<fieldset class="field">
+<legend>Berufsmaturität</legend>
+<label><input type="radio" name="BMS" value="ja"> Mit BMS</label>
+<label><input type="radio" name="BMS" value="Nein"> Ohne BMS</label>
+</fieldset>
+
+
+<br>
+Lehrbeginn:  <label for="start">Datum wählen:</label> <input type="date" id="start" name="trip-start" value="" min="0000-00-00" max="2030-12-31">
+<br>
+Berufsbilder/in: 
+<input type="text" id="beruf" name="beruf" style="width: 120px;"> <br>
+<br>
+Gesamteindruck: <br><br> <textarea  name="Gesamteindruck" id="textarea"></textarea>
+<br> <br> <br>
+<Legend>Beurteilung</Legend>
+<br> <br>
+<hr>
+Fachkompetenz
+<br> <br>
+
+<label><input type="Radio" name="1" value="ja"> Sehr gut</label>
+<br>
+<label><input type="Radio" name="1" value="ja"> gut</label>
+<br>
+<label><input type="Radio" name="1" value="ja"> genügend</label>
+<br>
+<label><input type="Radio" name="1" value="ja"> ungenügend</label>
+<br>
+
+
+<hr>
+Methodenkompetenz
+
+
+<br> <br>
+<label><input type="radio" name="2" value="ja"> Sehr gut</label>
+<br>
+<label><input type="radio" name="2" value="ja"> gut</label>
+<br>
+<label><input type="Radio" name="2" value="ja"> genügend</label>
+<br>
+<label><input type="Radio" name="2" value="ja"> ungenügend</label>
+
+
+<hr>
+Sozialkompetenz
+
+<br> <br>
+<label><input type="Radio" name="3" value="ja"> Sehr gut</label>
+<br>
+<label><input type="Radio" name="3" value="ja"> gut</label>
+<br>
+<label><input type="Radio" name="3" value="ja"> genügend</label>
+<br>
+<label><input type="Radio" name="3" value="ja"> ungenügend</label>
+
+<hr>
+selbstkompetenz
+<br> <br>
+<label><input type="Radio" name="4" value="ja"> Sehr gut</label>
+<br>
+<label><input type="Radio" name="4" value="ja"> gut</label>
+<br>
+<label><input type="Radio" name="4" value="ja"> genügend</label>
+<br>
+<label><input type="Radio" name="4" value="ja"> ungenügend</label>
+
+<hr>
+Fazit
+<br> <br>
+<label for="lehrberuf">Probezeit:</label>
+<select name="lehrberuf" id="lehrberuf">
+
+  <option value="ja">bestanden</option>
+  <option value="nein">nicht bestanden</option>
+
+<br> <br> <br>
+
+
+
+
+</select>
+<br><br>
+
+ Bemerkungen: <br><br> <textarea name="" id=""></textarea>
+<br><br>
+
+<br><br><br>
+
+<input type="submit" value="Absenden" >
+</div>
+</form>
+</body>
+</html>
